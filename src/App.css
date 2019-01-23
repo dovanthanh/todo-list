@@ -38,7 +38,7 @@
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1)
 }
 .inputNew {
-  background: url(/../assets/img/new-file.png) center left no-repeat;
+  background: url(./../assets/img/new-file.png) center left no-repeat;
   background-size: 6%;
   background-position-x: 2.5%;
   width: 86%;

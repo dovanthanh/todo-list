@@ -1,0 +1,31 @@
+.TodoItem {
+    font-weight:  300;
+    font-size: 24px;
+    color: #4d4d4d;
+    border-bottom: 1px solid #ededed;
+    display: flex;
+    align-items: center;
+}
+.TodoItem:hover >.iconDel{
+    display: block;
+}
+.TodoItem >p {
+    padding: 15px 30px;
+    margin: 5px 0px;
+    width: 90%;
+}
+.icon {
+    width: 4%;
+    margin-left: 30px;
+    opacity: .7;
+}
+.iconDel {
+    display: none;
+    width: 4%;
+    margin-right: 30px;
+    opacity: .7;
+}
+.complete >p {
+    text-decoration: line-through;
+    opacity: 0.4;
+}

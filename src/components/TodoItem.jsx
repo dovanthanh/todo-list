@@ -10,10 +10,7 @@ class TodoItem extends Component {
             url='./assets/img/success2.png'
         }
         return (
-            <div className={TodoItemClass}   >
-                {/* <Img src=''/> */}
-                {/* <Image src="https://icdn.dantri.com.vn/thumb_w/640/2018/5/23/net-cuoi-be-gai-9-1527053440039156820618.jpg"/> */}
-                {/* <Image src="/assets/img/success2.png"/> */}
+            <div className={TodoItemClass} >
                 <img src={url}className="icon" onClick={() => onClick(item)} alt="icon click"></img>
                 <p> {this.props.item.title} </p>
                 <img src='./assets/img/error.png' className="iconDel" onClick={() =>onClickDel(item)} alt="icon delete"></img>

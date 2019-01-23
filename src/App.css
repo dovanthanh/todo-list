@@ -15,7 +15,6 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
 .App-link {
   color: #61dafb;
 }
@@ -35,8 +34,28 @@
   margin: 0 auto;
 }
 .App {
-  width: 40%;
+  width: 50%;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1)
+}
+.inputNew {
+  background: url(/../assets/img/new-file.png) center left no-repeat;
+  background-size: 6%;
+  background-position-x: 2.5%;
+  width: 86%;
+  padding: 5% 4% 5% 10%;
+  border: none;
+  border-bottom: 6px solid #2bb793;
+  font-size: 28px;
+  color: #4d4d4d;
+  font-weight: 300;
+}
+.inputNew:focus {
+  outline-color: #2bb793;
+  outline-width: 2px;
+}
+.inputNew::placeholder {
+  font-style: italic;
+  opacity: .5;
 }
 .title {
   font: 78px 'Helvetica Neue', Helvetica, Arial, sans-serif;
